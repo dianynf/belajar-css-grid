@@ -7,4 +7,9 @@ img {
     width: 100%;
 }
 
-bodyd
+body {
+    background-color: #dddddd;
+    font-size: 18px;
+    font-family: 'Roboto', Courier, monospace;
+    margin: 50px;
+}
