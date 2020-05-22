@@ -13,3 +13,24 @@ body {
     font-family: 'Roboto', Courier, monospace;
     margin: 50px;
 }
+
+/* header */
+.header {
+    display: grid;
+    grid-template-areas:
+        'hero hero feature-1'
+        'hero hero feature-2';
+}
+
+.hero {
+    grid-area: hero;
+    min-height: 300;
+    background-image: url(img/images.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.hero>* {
+    display: none;
+}
