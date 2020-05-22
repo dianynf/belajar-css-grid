@@ -34,3 +34,13 @@ body {
 .hero>* {
     display: none;
 }
+
+.features {
+    background-color: black;
+    color: white;
+    display: grid;
+    /* justify-content: center;
+    align-content: center; */
+    place-content: center;
+    text-align: center;
+}
